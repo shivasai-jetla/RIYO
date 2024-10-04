@@ -5,10 +5,6 @@
 
 }
 
-:root{
-    --pacifico:font-family: "Pacifico", cursive;
-}
-
 
 
 .container{
@@ -20,15 +16,38 @@
     background-color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+    .container{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        height: 100%;
+        width:100%;
+    }
+
     .content{
         display: flex;
         flex-direction: column;
+
     }
 
+    .right{
+        height:600px;
+        border: black solid 3px;
+    }
+
+    .button button{
+        transition: all ease;
+    }
+
+    .button button:hover{
+        transform: scale(1.1);
+    }
 }
+
+
 .content{
     display: flex;
+    flex-direction: column;
     align-items: center;
     height: 600px;
     width: 900px;
@@ -44,7 +63,7 @@
 
 .right p{
     font-size: 20px;
-    font-family: "Sacramento", cursive;
+    font-family: "Satisfy", cursive;
     font-weight: 400;
     font-style: normal;
       
@@ -68,6 +87,8 @@ left{
     height: 300px;
     width: 300px;
     border-radius: 50px;
+    border: #f39cff solid 3px;
+    box-shadow: #a6c1ee 10px 12px 13px;
 }
 
 .main-container{
@@ -79,18 +100,16 @@ left{
     padding-top: 200px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .main-container{
         display: flex;
         flex-direction: column;
     }
+
 }
 
 .main-container h1{
-    font-size: 50px;
-    font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-size: 50px;;
 }
 
 .main-container p{
@@ -110,6 +129,8 @@ left{
     transform: scale(1.1);
 
 }
+
+
 
 .button button{
     height: 50px;
