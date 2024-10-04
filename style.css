@@ -18,6 +18,7 @@
 
 @media (max-width: 600px) {
     .container{
+        padding-top:150;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -86,12 +87,6 @@
     width: 500px;
 }
 
-
-.right p{
-    font-size: 20px;
-    font-family: "Satisfy", cursive;
-    font-weight: 400;
-    font-style: normal;
       
       
 }
