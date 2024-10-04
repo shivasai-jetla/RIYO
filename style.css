@@ -18,7 +18,7 @@
 
 @media (max-width: 600px) {
     .container{
-        padding-top:150;
+        padding-top: 150px;;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -48,6 +48,7 @@
     .right p{
         text-align: center;
         padding: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .left img{
@@ -88,8 +89,6 @@
 }
 
       
-      
-}
 
 .index-page{
     height:100vh;
